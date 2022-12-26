@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "243789303415",
+    "project_id": "note-app-dart-flutter",
+    "storage_bucket": "note-app-dart-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243789303415:android:c0bd7b471e255f14290072",
+        "android_client_info": {
+          "package_name": "com.makingapp.mynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243789303415-gb7koqjtt44ji095qegbtvasjc526uou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrx-pW3bIKPPMSgfm-3rVA_-5hjkWcBH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243789303415-gb7koqjtt44ji095qegbtvasjc526uou.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "243789303415-t1dca5c3nngkuccqs8vu5b37fm0713r3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.makingapp.mynotes"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
