@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -7,9 +5,6 @@ import 'package:mynotes/firebase_options.dart';
 import 'package:mynotes/views/login_view.dart';
 import 'package:mynotes/views/register_view.dart';
 import 'package:mynotes/views/verify_email_view.dart';
-import 'dart:developer' as devtools show log;
-//"show log" (mean only that func (log))
-//"as devtools" (is alias only, for knowing which func. is?)
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,6 +18,7 @@ void main() {
       routes: {
         '/login/': (context) => const LoginView(),
         '/register/': (context) => const RegisterView(),
+        '/notes/': (context) => const NotesView(),
       },
     ),
   );
@@ -50,7 +46,6 @@ class HomePage extends StatelessWidget {
             } else {
               return const LoginView();
             }
-            return const Text('Done');
           default:
             return const CircularProgressIndicator();
         }
