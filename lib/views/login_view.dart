@@ -2,8 +2,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:mynotes/constants/routes.dart';
 import 'package:mynotes/utilities/show_error_dialog.dart';
-//"show log" (mean only that func (log))
-//"as devtools" (is alias only, for knowing which func. is?)
 
 class LoginView extends StatefulWidget {
   const LoginView({super.key});
